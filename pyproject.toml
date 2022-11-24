@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "erc4626"
+version = "0.1.0"
+description = "EIP-4626 Demo Implementation in Vyper"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+eth-ape = ">=0.5.4"
+black = "^22.10.0"
+jsbeautifier = "^1.14.7"
+
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.15.1"
+ipython = "^8.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
